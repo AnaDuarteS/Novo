@@ -282,7 +282,6 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-    
     }
 
     #nav-links2 {
@@ -292,12 +291,16 @@ footer {
         margin: 12px 0px;
     }
 
-
-
     #nav-links2 .nav-item {
         list-style: none;
         text-align: center;
     } 
+
+    .card-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
 }
     
 
