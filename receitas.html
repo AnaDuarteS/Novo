@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita</title>
+    <link rel="stylesheet" href="receitas.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+</head>
+<body>
+    <header>
+        <section class="menu">
+            <nav id="nav">
+                <div class="logo">
+                    <h1>Tempero do Dia</h1>
+                </div>
+                
+                <ul id="nav-links1">
+                    <li class="active"><a href="receitas.html">RECEITAS</a></li>
+                    <li class="nav-item"><a href="usuario.html">PERFIL</a></li>
+                    <li class="nav-item"><a href="login.html">LOGIN</a></li>
+                    <li class="nav-item"><a href="pesquisa.html">PESQUISA</a></li>
+                </ul>
+                
+                <div id="input">
+                    <input class="signin" type="submit" value="Sign In" name="signin">
+                    <input class="signup" type="submit" value="Sign Up" name="signup">
+                </div>
+    
+                <button id="mobile_btn">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </nav>  
+    
+                <div id="mobile_menu">
+                    <ul id="nav-links2">
+                        <li class="nav-item"><a href="#">Receitas</a></li>
+                        <li class="nav-item"><a href="#">Perfil</a></li>
+                        <li class="nav-item"><a href="#">Login</a></li>
+                        <li class="nav-item"><a href="#">Gallery</a></li>
+                    </ul>
+                </div> 
+        </section>
+    </header>
+
+        <section>
+            <div class="card">
+                <img src="assets\avatar.png" alt="user" style="border-radius: 50%; margin-right: 20p; display: block;">
+            </div>
+            <div>
+                <strong>Cozinheiro Eduardo</strong>
+                <blockquote>Especialista em Comida regionalista</blockquote>
+            </div>
+        </section>
+        
+        <section>
+            <h3>Igredientes</h3>
+            <div class="description">
+                <ol>
+                    <li> - 4 xícaras (chá) de água</li>
+                    <li> - 1/2 xícara (chá) de polvilho azedo (ou goma de mandioca)</li>
+                    <li> - 1 colher (chá) de sal</li>
+                    <li> - 500 g de camarão salgado (seco)</li>
+                    <li> - 4 folhas de chicória</li>
+                    <li> - 4 dentes de alho bem amassados</li>
+                    <li> - 3 pimentas-de-cheiro</li>
+                    <li> - 2 maços de jambu</li>
+                    <li> - 2 litros de tucupi</li>
+                </ol>                      
+            </div>
+        </section>
+
+        <section>    
+                <h3>Modo de preparo</h3>
+                <div class="description">
+                    <ol>
+                        <li> - Coloque o tucupi em uma panela com o alho bem amassado, o sal, a chicória e as pimentas.
+                        Leve ao fogo.</li>
+                        <li> - Quando começar a ferver, abaixe o fogo, tampe a panela e deixe cozinhar por 30 minutos aproximadamente.</li>
+                        <li> - Simultaneamente em outra panela, cozinhe o jambu até ficar tenro.</li>
+                        <li> - Retire do fogo, escorra e reserve.</li>
+                        <li> - Lave bem os camarões e leve-os ao fogo em uma panela com 4 xícaras de água.</li>
+                        <li> - Deixe ferver por aproximadamente 5 minutos.</li>
+                        <li> - Retire a cabeça e a casca.</li>
+                        <li> - Em uma panela, misture o polvilho com a água dos camarões, leve ao fogo e mexa até obter um mingau.</li>
+                        <li> - Sirva em uma cuia com uma concha de tucupi, um pouco do mingau, algumas folhas de jambu e os camarões.</li>
+                    </ol>
+                </div>
+        </section>        
+
+        <section>
+            <div>
+                <h3>Comentarios</h3>
+                
+                <textarea
+                name="textarea"
+                rows="5"
+                cols="30"
+                placeholder="Deixe o seu comentario aqui"></textarea>
+            </div>
+        </section>  
+        
+        <section class="category">
+            <div class="list-items">
+                <h3>Receitas Populares</h3>
+    
+                <div class="card-list">
+                    <div class="card">
+                        <img src="assets/tacaca4.jpg" alt="">
+    
+                        <div class="food-title">
+                            <h1>Tacacá</h1>
+                        </div>
+    
+                        <div class="desc-food">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus possimus blanditiis rerum veniam aperiam dolorum cupiditate provident nesciunt. Atque odit tempore vel similique quibusdam repudiandae laborum quia vero ad ab.</p>
+                        </div>
+    
+                        <div class="price">
+                            <span>Postado por: <a href="#">Ana</a></span> <span> <span><i class='bx bx-like'></i></span></i></span>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <img src="assets/panquecaDoce.jpg" alt="">
+    
+                        <div class="food-title">
+                            <h1>Panqueca Doce</h1>
+                        </div>
+    
+                        <div class="desc-food">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus possimus blanditiis rerum veniam aperiam dolorum cupiditate provident nesciunt. Atque odit tempore vel similique quibusdam repudiandae laborum quia vero ad ab.</p>
+                        </div>
+    
+                        <div class="price">
+                            <span>Postado por: <a href="#">David</a></span> <i class='bx bx-like'></i></span>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <img src="assets/acaraje.jpg" alt="">
+    
+                        <div class="food-title">
+                            <h1>Acarajé</h1>
+                        </div>
+    
+                        <div class="desc-food">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus possimus blanditiis rerum veniam aperiam dolorum cupiditate provident nesciunt. Atque odit tempore vel similique quibusdam repudiandae laborum quia vero ad ab.</p>
+                        </div>
+    
+                        <div class="price">
+                            <span>Postado por: <a href="#">Naty</a></span> <span><i class='bx bx-like'></i></span></i></span>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <img src="assets/tortadoce.jpg" alt="">
+    
+                        <div class="food-title">
+                            <h1>Torta de Chocolate</h1>
+                        </div>
+    
+                        <div class="desc-food">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus possimus blanditiis rerum veniam aperiam dolorum cupiditate provident nesciunt. Atque odit tempore vel similique quibusdam repudiandae laborum quia vero ad ab.</p>
+                        </div>
+    
+                        <div class="price">
+                            <span>Postado por: <a href="#">Eduardo</a></span> <i class='bx bx-like'></i></span></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+    <footer>
+        <footer>
+            Copyright 2024 © - Site Receitas™ 
+        </footer>
+    </footer>
+    <script src="receitas.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="pesquisa.css" rel="stylesheet"/>
+    <title>Pagina de Pesquisa</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  
+</head>
+<body>
+    <header>
+        <section class="menu">
+            <nav id="nav">
+                <div class="logo">
+                    <h1>Tempero do Dia</h1>
+                </div>
+                
+                <ul id="nav-links1">
+                    <li class="active"><a href="receitas.html">RECEITAS</a></li>
+                    <li class="nav-item"><a href="usuario.html">PERFIL</a></li>
+                    <li class="nav-item"><a href="login.html">LOGIN</a></li>
+                    <li class="nav-item"><a href="pesquisa.html">PESQUISA</a></li>
+                </ul>
+                
+                <div id="input">
+                    <input class="signin" type="submit" value="Sign In" name="signin">
+                    <input class="signup" type="submit" value="Sign Up" name="signup">
+                </div>
+    
+                <button id="mobile_btn">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </nav>  
+    
+                <div id="mobile_menu">
+                    <ul id="nav-links2">
+                        <li class="nav-item"><a href="#">Receitas</a></li>
+                        <li class="nav-item"><a href="#">Perfil</a></li>
+                        <li class="nav-item"><a href="#">Login</a></li>
+                        <li class="nav-item"><a href="#">Gallery</a></li>
+                    </ul>
+                </div> 
+        </section>
+    </header>
+
+    <main>
+    <div class="pesquisa-recentes">
+        <h2 class="texto-pesquisa">Pesquisa Recente</h2>
+        <div class="contener-pesquisa">
+            <a href="paginaDeReceita.html"><img src="/assets/tacaca3.png" class="imagens-pesquisa-recente" alt="Imagem-Tacaca"></a>
+            <div class="texto-container">
+                <h3 class="texto-tacaca">Tacacá</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="texto-receitas">
+        <div class="linha-receita">__________ RECEITAS __________</div>
+        <div class="escolha-receita">ESCOLHA SUA RECEITA</div>
+    </div>
+
+    <div class="texto-receita-populares">
+        <h2 class="texto-populares">RECEITAS POPULARES</h2>
+    </div>
+    
+    <div class="container-receitas-populares">
+        <img src="/assets/torta3.png" class="imagem-receitas-populares" alt="Imagem-Torta">
+        <div class="texto-container-receitas-populares">
+            <h3>Torta Doce</h3>
+            <p>Uma torta doce deixa qualquer ocasião mais especial, desde<br> o café da manhã e o lanche da tarde até o aniversário e as festas de família</p>
+        </div>
+    </div>
+    <hr class="linha-hr">
+    <div class="container-receitas-populares">
+        <img src="/assets/acaraje3.png" class="imagem-receitas-populares" alt="Imagem-acaraje">
+        <div class="texto-container-receitas-populares">
+            <h3>Mini acajare na airfyer</h3>
+            <p>Você sabia que a palavra acarajé se origina da língua africana<br> iorubá? Nessa designação, 'akará' quer dizer “bola de fogo” e 'jé' significa “comer”.</p>
+        </div>
+    </div>
+    <hr class="linha-hr">
+    <div class="container-receitas-populares">
+        <img src="assets/feijoada3.jpg" class="imagem-receitas-populares" alt="Imagem-feijoada">
+        <div class="texto-container-receitas-populares">
+            <h3>Feijoada tradicional</h3>
+            <p>Um clássico da nossa culinária, a feijoada é um prato que possui algumas<br> variações, mas todas bem deliciosas! Esta receita de feijoada que trazemos pra você <br>é bem tradicional, contendo carnes como orelha, rabo e pé de porco.<br>Confira como fazer e capriche no seu almoço!</p>
+        </div>
+    </div>
+
+    <section-bottom>
+        <span class="topReceitas">Top Receitas</span>
+        <a href="pagina_receita_eduardo.html"> <div class="TopReceita">
+            <div>
+                <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                <div>
+                    <strong>Nome da receita</strong>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div class="TopReceita">
+            <div>
+                <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                <div>
+                    <strong>Nome da receita</strong>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div class="TopReceita">
+            <div>
+                <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                <div>
+                    <strong>Nome da receita</strong>
+                </div>
+            </div>
+        </div></a>
+    </section-bottom>   
+    </main>
+    
+    <footer>
+        Copyright 2024 © - Site Receitas™ 
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
+

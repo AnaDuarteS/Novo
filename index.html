@@ -4,35 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 <body>
-    <section class="menu">
-        <div class="nav">
-            <div class="logo">
-                <h1>Food <b>io</b></h1>
-            </div>
-            
-            <ul id="nav-links">
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Gallery</a></li>
-            </ul>
-
-            <div class="input">
-                <input class="signin" type="submit" value="Sign In" name="signin">
-                <input class="signup" type="submit" value="Sign Up" name="signup">
-            </div>
-        </div>    
-    </section>
-
+    <header>
+        <section class="menu">
+            <nav id="nav">
+                <div class="logo">
+                    <h1>Tempero do Dia</h1>
+                </div>
+                
+                <ul id="nav-links1">
+                    <li class="active"><a href="receitas.html">RECEITAS</a></li>
+                    <li class="nav-item"><a href="usuario.html">PERFIL</a></li>
+                    <li class="nav-item"><a href="login.html">LOGIN</a></li>
+                    <li class="nav-item"><a href="pesquisa.html">PESQUISA</a></li>
+                </ul>
+                
+                <div id="input">
+                    <input class="signin" type="submit" value="Sign In" name="signin">
+                    <input class="signup" type="submit" value="Sign Up" name="signup">
+                </div>
     
+                <button id="mobile_btn">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </nav>  
+    
+                <div id="mobile_menu">
+                    <ul id="nav-links2">
+                        <li class="nav-item"a href="receitas.html">Receitas</a></li>
+                        <li class="nav-item"><a href="usuario.html">Perfil</a></li>
+                        <li class="nav-item"><a href="login.html">Login</a></li>
+                        <li class="nav-item"><a href="pesquisa.html">Pesquisa</a></li>
+                    </ul>
+                </div> 
+        </section>
+    </header>
 
     <section class="grid">
         
@@ -40,12 +52,16 @@
             <div class="content-left">
                 <div class="info">
                     <h2>Tempero do Dia</h2>
-                    <p>Aqui você vai encontrar um guia de receitas cadastradas por nossos usuários!<br>
+                    <p>Aqui você vai encontrar receitas cadastradas por nossos usuários.<br>
 
-                    <p>Compartilhe e troque ideias sobre suas receitas favoritas de sua região</p>
+                    <p>Compartilhe e troque ideias sobre suas receitas favoritas!</p>
                 </div>
-
-                <button>Explore Food</button>
+                
+                <div class="buttonEntre">
+                    <a href="login.html">
+                        <button a href="login.html" class="SignIn">Entre aqui</button>
+                    </a>
+                </div>
 
             </div>
 
@@ -61,14 +77,15 @@
 
             <div class="card-list">
                 <div class="card">
-                    <img src="assets/tacaca4.jpg" alt="">
-
+                    <a href="receitas.html">
+                        <img src="assets/tacaca4.jpg" alt="tacaca">
+                    </a>
                     <div class="food-title">
                         <h1>Tacacá</h1>
                     </div>
 
                     <div class="desc-food">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus possimus blanditiis rerum veniam aperiam dolorum cupiditate provident nesciunt. Atque odit tempore vel similique quibusdam repudiandae laborum quia vero ad ab.</p>
+                        <p>"Receita muito popular no Norte do Brasil! Feito com tucupi, folhas de jambu e goma de tapioca. Vale muito a pena provar!"</p>
                     </div>
 
                     <div class="price">
@@ -77,14 +94,17 @@
                 </div>
 
                 <div class="card">
-                    <img src="assets/panquecaDoce.jpg" alt="">
+                    <a href="receitas.html">
+                        <img src="assets/panquecaDoce.jpg" alt="PanquecaDoce">
+                    </a>
+                   
 
                     <div class="food-title">
                         <h1>Panqueca Doce</h1>
                     </div>
 
                     <div class="desc-food">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus possimus blanditiis rerum veniam aperiam dolorum cupiditate provident nesciunt. Atque odit tempore vel similique quibusdam repudiandae laborum quia vero ad ab.</p>
+                        <p>"Clássico café da manhã norte americano! Comece da melhor forma possível, com uma receita prática de paqueca. Você vai adorar!"</p>
                     </div>
 
                     <div class="price">
@@ -93,14 +113,16 @@
                 </div>
 
                 <div class="card">
-                    <img src="assets/acaraje.jpg" alt="">
+                    <a href="receitas.html">
+                        <img src="assets/acaraje.jpg" alt="Acaraje">
+                    </a>
 
                     <div class="food-title">
                         <h1>Acarajé</h1>
                     </div>
 
                     <div class="desc-food">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus possimus blanditiis rerum veniam aperiam dolorum cupiditate provident nesciunt. Atque odit tempore vel similique quibusdam repudiandae laborum quia vero ad ab.</p>
+                        <p>"Um prato típico da Bahia, feito com massa de feijão fradinho e frito no azeite do dendê! Experimente essa iguaria ancestral!"</p>
                     </div>
 
                     <div class="price">
@@ -109,14 +131,16 @@
                 </div>
 
                 <div class="card">
-                    <img src="assets/tortadoce.jpg" alt="">
+                    <a href="receitas.html">
+                        <img src="assets/tortadoce.jpg" alt="TortaDoce">
+                    </a>
 
                     <div class="food-title">
                         <h1>Torta de Chocolate</h1>
                     </div>
 
                     <div class="desc-food">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus possimus blanditiis rerum veniam aperiam dolorum cupiditate provident nesciunt. Atque odit tempore vel similique quibusdam repudiandae laborum quia vero ad ab.</p>
+                        <p>"Receita presente em qualquer reunião de família! A torta unânime e que todos gostam! Essa receita vai te conquistar!"</p>
                     </div>
 
                     <div class="price">
@@ -130,5 +154,6 @@
     <footer>
         Copyright 2024 © - Site Receitas™ 
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>

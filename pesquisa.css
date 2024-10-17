@@ -11,15 +11,18 @@ body {
 
 /* MENU  */
 
-.nav {
+#nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
 }
-.nav-links {
-    position: ab;
+
+#nav-links1 {
+    display: flex;
+    list-style: none;
+    gap: 48px;
 }
 .nav .logo h1 {
     font-weight: 600;
@@ -27,16 +30,17 @@ body {
     font-size: 17px;
 }
 
-.nav ul {
+#nav ul {
     display: flex;
     list-style: none;
 }
 
-.nav ul li {
+#nav ul li {
     margin-right: 30px;
 }
 
-.nav ul li a {
+
+#nav ul li a {
     text-decoration: none;
     color: #000000;
     font-weight: 500;
@@ -45,7 +49,7 @@ body {
 }
 
 /* ----- ACTIVE ------ */
-.nav ul .active::after {
+#nav ul .active::after {
     content: '';
     width: 50%;
     height: 3px;
@@ -53,6 +57,14 @@ body {
     display: flex;
     position: relative;
     margin-left: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px
 }
 
 /* ------ INPUT ----- */
@@ -79,6 +91,7 @@ input {
 /* ------ CONTENT ----- */
 
 .content {
+    margin: 0 100;
     display: grid;
     grid-template-columns: 50% auto;
     gap: 30px;
@@ -244,13 +257,62 @@ input {
 ::-webkit-scrollbar-thumb {
     border-radius: 20px;
     background-color: #dd795a;
+} 
+
+#mobile_btn {
+    display: none;
 }
 
-.wallpaper img {
-    background-color: black;
+#mobile_menu {
+    display: none;
+}
+
+footer {
     width: 100%;
-    border-radius: ;
-}   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e555;
+    color: #1a1407;
+    box-sizing: border-box;  
+}
+
+@media screen and (max-width: 1170px) {
+    #nav ul,
+    #input {
+        display: none;
+    }
+    
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    #nav-links2 {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
 
 
-@media ()
+
+    #nav-links2 .nav-item {
+        list-style: none;
+        text-align: center;
+    } 
+}
+    
+
+    
