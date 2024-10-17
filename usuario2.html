@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="usuario2.css">    
+
+    <title>Página de Usuário</title>
+</head>
+<body>
+    <header>
+        <section class="menu">
+            <nav id="nav">
+                <div class="logo">
+                    <h1>Tempero do Dia</h1>
+                </div>
+                
+                <ul id="nav-links1">
+                    <li class="active"><a href="receitas.html">RECEITAS</a></li>
+                    <li class="nav-item"><a href="usuario.html">PERFIL</a></li>
+                    <li class="nav-item"><a href="login.html">LOGIN</a></li>
+                    <li class="nav-item"><a href="pesquisa.html">PESQUISA</a></li>
+                </ul>
+                
+                <div id="input">
+                    <input class="signin" type="submit" value="Sign In" name="signin">
+                    <input class="signup" type="submit" value="Sign Up" name="signup">
+                </div>
+    
+                <button id="mobile_btn">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </nav>  
+    
+                <div id="mobile_menu">
+                    <ul id="nav-links2">
+                        <li class="nav-item"><a href="#">Receitas</a></li>
+                        <li class="nav-item"><a href="#">Perfil</a></li>
+                        <li class="nav-item"><a href="#">Login</a></li>
+                        <li class="nav-item"><a href="#">Gallery</a></li>
+                    </ul>
+                </div> 
+        </section>
+    </header>
+
+
+    <main>
+        <section class="capa">
+            <div class="imagemfundo">
+                <img src="" alt="imagemfundo">
+            </div>
+            <div class="icone-usuario">
+                <img src="https://via.placeholder.com/100" alt="Avatar">
+                <span>Username</span>
+            </div>
+        </section>
+        <section class="barra">
+            <button class="btn" id="post">POSTS</button>
+            <div class="divider"></div>
+            <button class="btn" id="curtidas">CURTIDAS</button>
+        </section>
+       
+    
+        <section id="posts">
+            <a href="paginaDeReceita.html">
+            <div class="card">
+                <img src="assets/acaraje.jpg" alt="Post 1">
+                <h1 class="cardText">Post 1</h1>
+            </div>
+        </a>
+        <a href="paginaDeReceita.html">
+            <div class="card">
+                <img src="assets/" alt="Post 2">
+                <h1 class="cardText">Post 2</h1>
+            </div>
+        </a>
+        <a href="paginaDeReceita.html">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="Post 3">
+                <h1 class="cardText">Post 3</h1>
+            </div>
+        </a>
+        <a href="paginaDeReceita.html">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="Post 4">
+                <h1 class="cardText">Post 4</h1>
+            </div>
+        </a>
+        </section>
+    
+        <section id="comentarios">
+            <h2 >TOP COMMENTS</h2>
+            <div>
+                <div class="user">
+                    <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                    <div>
+                        <strong>Usuário</strong>
+                        <p>Texto meramente ilustrativo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="user">
+                <div>
+                    <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                    <div>
+                        <strong>Usuário</strong>
+                        <p>Texto meramente ilustrativo</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="user">
+                <div>
+                    <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                    <div>
+                        <strong>Usuário</strong>
+                        <p>Texto meramente ilustrativo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <footer>
+            Copyright 2024 © - Site Receitas™ 
+        </footer>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

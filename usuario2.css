@@ -184,6 +184,7 @@ input {
     background: #fff;
     flex: 0;
 }
+
 .card-link {
     text-decoration: none;
     color: inherit; 
@@ -194,9 +195,11 @@ input {
 .card:hover {
     transform: scale(1.05); 
 }
+
 .cardText{
     color: black;
 }
+
 #comentarios {
     background-color: #363131;
     display: flex;
@@ -216,6 +219,11 @@ input {
 
 }
 
+footer {
+    background-color: #242021;
+    justify-content:end ;
+}
+
 #mobile_btn {
     display: none;
 }
@@ -226,6 +234,7 @@ input {
 
 footer {
     width: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -262,4 +271,3 @@ footer {
         margin: 12px 0px;
     }
 }
-    

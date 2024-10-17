@@ -164,12 +164,6 @@ input {
         transform: rotate(360deg);
     }
 }
-
-
-
-
-/* ------- CARDS ------ */
-
 .category {
     width: 100%;
     display: flex;
@@ -249,15 +243,7 @@ input {
     font-size: 20px;
     cursor: pointer;
 }
-/* ------- scroll-bar ------ */
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-thumb {
-    border-radius: 20px;
-    background-color: #dd795a;
-} 
 
 #mobile_btn {
     display: none;
