@@ -26,8 +26,11 @@
                 </ul>
                 
                 <div id="input">
-                    <input class="signin" type="submit" value="Sign In" name="signin">
+                    <a href="">
+                        <input class="signin" type="submit" value="Sign In" name="signin">
                     <input class="signup" type="submit" value="Sign Up" name="signup">
+                    </a>
+                    
                 </div>
     
                 <button id="mobile_btn">
@@ -35,20 +38,21 @@
                 </button>
             </nav>  
     
-                <div id="mobile_menu">
-                    <ul id="nav-links2">
-                        <li class="nav-item"><a href="#">Receitas</a></li>
-                        <li class="nav-item"><a href="#">Perfil</a></li>
-                        <li class="nav-item"><a href="#">Login</a></li>
-                        <li class="nav-item"><a href="#">Gallery</a></li>
-                    </ul>
-                </div> 
+            <div id="mobile_menu">
+                <ul id="nav-links2">
+                    <li class="nav-item1"><a href="receitas.html">Receitas</a></li>
+                    <li class="nav-item1"><a href="usuario.html">Perfil</a></li>
+                    <li class="nav-item1"><a href="login.html">Login</a></li>
+                    <li class="nav-item1"><a href="pesquisa.html">Pesquisa</a></li>
+                </ul>
+            </div>
         </section>
     </header>
 
+    <main>
         <section>
             <div class="card">
-                <img src="assets\avatar.png" alt="user" style="border-radius: 50%; margin-right: 20p; display: block;">
+                <img src="assets/avatar.png" alt="user" style="border-radius: 50%; margin-right: 20p; display: block;">
             </div>
             <div>
                 <strong>Cozinheiro Eduardo</strong>
@@ -57,7 +61,7 @@
         </section>
         
         <section>
-            <h3>Igredientes</h3>
+            <h3 id="Receita">Igredientes</h3>
             <div class="description">
                 <ol>
                     <li> - 4 xícaras (chá) de água</li>
@@ -74,7 +78,7 @@
         </section>
 
         <section>    
-                <h3>Modo de preparo</h3>
+                <h3 id="Receita">Modo de preparo</h3>
                 <div class="description">
                     <ol>
                         <li> - Coloque o tucupi em uma panela com o alho bem amassado, o sal, a chicória e as pimentas.
@@ -93,7 +97,7 @@
 
         <section>
             <div>
-                <h3>Comentarios</h3>
+                <h3 id="Receita">Comentarios</h3>
                 
                 <textarea
                 name="textarea"
@@ -174,9 +178,10 @@
                 </div>
             </div>
         </section>
- 
+    </main>
+
     <footer>
-        <footer>
+        <footer id="footer">
             Copyright 2024 © - Site Receitas™ 
         </footer>
     </footer>

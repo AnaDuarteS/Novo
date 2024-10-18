@@ -55,7 +55,7 @@ body {
     margin-left: 10px;
 }
 
-.nav-item a {
+.nav-item1 a {
     text-decoration: none;
     color: #000000;
     font-weight: 500;
@@ -237,13 +237,10 @@ input {
 
 footer {
     width: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e5e555;
     color: #1a1407;
-    box-sizing: border-box;  
 }
 
 @media screen and (max-width: 1170px) {
