@@ -147,6 +147,10 @@ input {
     }
 }
 
+span {
+    margin-left: 2%;
+}
+
 .category {
     width: 100%;
     display:flex;
