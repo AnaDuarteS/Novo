@@ -190,7 +190,7 @@ span {
 .category .card-list #card img {
     width: 100px;
     height: auto;
-    bottom: 180px;
+    bottom: 200px;
     left: 50px;
     object-fit: cover;
     object-position: center;
