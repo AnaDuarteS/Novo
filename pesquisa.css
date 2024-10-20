@@ -9,8 +9,6 @@ body {
     background-color: #ffeae0;
 }
 
-/* MENU  */
-
 #nav {
     width: 100%;
     display: flex;
@@ -39,7 +37,6 @@ body {
     margin-right: 30px;
 }
 
-
 #nav ul li a {
     text-decoration: none;
     color: #000000;
@@ -48,7 +45,6 @@ body {
     font-size: 17px
 }
 
-/* ----- ACTIVE ------ */
 #nav ul .active::after {
     content: '';
     width: 50%;
@@ -59,15 +55,13 @@ body {
     margin-left: 10px;
 }
 
-.nav-item a {
+.nav-item1 a {
     text-decoration: none;
     color: #000000;
     font-weight: 500;
     font-family: sans-serif;
     font-size: 17px
 }
-
-/* ------ INPUT ----- */
 
 input {
     padding: 10px 20px;
@@ -88,85 +82,184 @@ input {
     border-radius: 5px;
 }
 
-/* ------ CONTENT ----- */
+.pesquisa-recentes{
+    margin: 0;
+    padding: 0;
 
-.content {
-    margin: 0 100;
-    display: grid;
-    grid-template-columns: 50% auto;
-    gap: 30px;
+}
+.texto-pesquisa{
+    text-align: left;
+    margin-top: 80px;
+    padding: 50px;
+}
+.contener-pesquisa{
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    
+}
+.imagens-pesquisa-recente{
+    margin: 30px 50px;
+    border-radius: 15px;
+    height: 215px;
+    width: 390px;
+
+}
+.texto-tacaca {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    color: rgb(88, 88, 88);
+        
 }
 
-/* ----- CONTENT TEXT ----- */
-/* ------ LEFT-SIDE ------ */
-
-.content .content-left {
-    display: block;
-    width: 100%;
+.contener-pesquisa h3, .contener-pesquisa p {
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.content .content-left .info {
-    max-width: 100%;
+.texto-receitas{
+   margin: 0;
+   padding: 0;
+
+}
+
+.linha-receita{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    
+}
+
+.escolha-receita{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(89, 88, 88);
+}
+
+.texto-receita-populares{
+    text-align: left;
+    margin: 30px 50px;
+}
+
+.container-receitas-populares{
+    display: flex;
+    
+}
+
+.imagem-receitas-populares{
+    margin: 30px 50px;
+    border-radius: 15px;
+    height: 215px;
+    width: 390px;
+}
+
+.texto-container-receitas-populares {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Para centralizar verticalmente */
+    
+}
+
+.linha-hr{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border: 0.05px solid rgb(180, 179, 179);
+    width: 900px;    
+
+}
+
+.texto-container-receitas-populares h3{
+    color: #EFB726;
+    padding: 20px 0;
+
+}   
+
+section-bottom{
+    background-color: #363131;
     display: flex;
     flex-direction: column;
 }
 
-.content .content-left .info h2 {
-    font-size: 60px;
-    font-family: sans-serif;
-    margin-bottom: 30px;
+.topReceitas{
+    color: #EFB726 ;
+    border-bottom: #EFB726 1px solid;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 1500px 10px  10px ;
+    
 }
 
-.content .content-left .info p {
-    font-size: 23px;
-    line-height: 2pc;
-    margin-bottom: 30px;
-    font-family: sans-serif;
+.texto-container-receitas-populares h3, 
+.texto-container-receitas-populares p {
+    margin: 0;
 }
 
-.content .content-left button {
-    padding: 10px 23px;
-    background-color: #ff511c;
-    color: #ffffff;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
-/* 
-
-/* #Content IMAHGE */
-/* ----- RIGHT-SIDE----- */
-
-.content .content-right {
-    display: block;
-    width: 100%;
+#card {
+    background-color: #EFB726;
 }
 
-.content .content-right img {
-    width: 400px;
-    height: auto;
-    position: relative;
-    user-select: none;
-    animation: rotate 10s linear infinite;
+#mobile_btn {
+    display: none;
 }
 
-/*  #Content */
-/* -------- ANIMATION ------ */
-
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+#mobile_menu {
+    display: none;
 }
-.category {
+
+footer {
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1a1407;
+}
+
+@media screen and (max-width: 1170px) {
+    #nav ul,
+    #input,
+    .pratoGirando {
+        display: none;
+    }
+
+    .content {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav-links2 {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+        list-style: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        .card-list {
+            display: grid;
+        }
+    }
+}
+
+.category {
+    width: 100%;
+    display:flex;
     margin-bottom: 50px;
     justify-content: center;
 }
@@ -189,7 +282,7 @@ input {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.category .card-list .card {
+.category .card-list #card {
     width: 200px;
     height: auto;
     display: block;
@@ -200,10 +293,10 @@ input {
     outline: 2px solid #faad96;
 }
 
-.category .card-list .card img {
+.category .card-list #card img {
     width: 100px;
     height: auto;
-    bottom: 250px;
+    bottom: 180px;
     left: 50px;
     object-fit: cover;
     object-position: center;
@@ -213,18 +306,18 @@ input {
     border-radius: 50%;
 }
 
-.category .card-list .card .food-title {
+.category .card-list #card .food-title {
     padding: 40px 0 10px;
 }
 
-.category .card-list .card .food-title h1 {
+.category .card-list #card .food-title h1 {
     text-align: center;
     font-weight: bold;
     font-size: 16px;
     font-family: sans-serif;
 }
 
-.category .card .desc-food p {
+.category #card .desc-food p {
     font-size: 13px;
     text-align: center;
     font-weight: 500;
@@ -232,76 +325,14 @@ input {
     font-family: sans-serif;
 }
 
-.category .card .price {
+.category #card .price {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.category .card .price span .bx-like {
+.category #card .price span .bx-like {
     color: #ff511c;
     font-size: 20px;
     cursor: pointer;
 }
-
-
-#mobile_btn {
-    display: none;
-}
-
-#mobile_menu {
-    display: none;
-}
-
-footer {
-    width: 100%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #e5e555;
-    color: #1a1407;
-    box-sizing: border-box;  
-}
-
-@media screen and (max-width: 1170px) {
-    #nav ul,
-    #input {
-        display: none;
-    }
-    
-    #mobile_btn {
-        display: block;
-        border: none;
-        background-color: transparent;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-
-    #mobile_menu.active {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #nav-links2 {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        margin: 12px 0px;
-    }
-
-    #nav-links2 .nav-item {
-        list-style: none;
-        text-align: center;
-    } 
-
-    .card-list {
-        flex-wrap: wrap;
-        justify-content: center;
-        
-    }
-}
-    
-
-    

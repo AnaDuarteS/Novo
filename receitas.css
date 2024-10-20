@@ -55,7 +55,7 @@ body {
     margin-left: 10px;
 }
 
-.nav-item a {
+.nav-item1 a {
     text-decoration: none;
     color: #000000;
     font-weight: 500;
@@ -81,7 +81,6 @@ input {
     border: none;
     border-radius: 5px;
 }
-
 #Receita {
     background-color: #F5EF52;
     margin: 10px;
@@ -134,7 +133,7 @@ span {
 
 .category {
     width: 100%;
-    display: flex;
+    display:flex;
     margin-bottom: 50px;
     justify-content: center;
 }
@@ -157,7 +156,7 @@ span {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.category .card-list .card {
+.category .card-list #card {
     width: 200px;
     height: auto;
     display: block;
@@ -168,10 +167,10 @@ span {
     outline: 2px solid #faad96;
 }
 
-.category .card-list .card img {
+.category .card-list #card img {
     width: 100px;
     height: auto;
-    bottom: 220px;
+    bottom: 180px;
     left: 50px;
     object-fit: cover;
     object-position: center;
@@ -181,18 +180,18 @@ span {
     border-radius: 50%;
 }
 
-.category .card-list .card .food-title {
+.category .card-list #card .food-title {
     padding: 40px 0 10px;
 }
 
-.category .card-list .card .food-title h1 {
+.category .card-list #card .food-title h1 {
     text-align: center;
     font-weight: bold;
     font-size: 16px;
     font-family: sans-serif;
 }
 
-.category .card .desc-food p {
+.category #card .desc-food p {
     font-size: 13px;
     text-align: center;
     font-weight: 500;
@@ -200,13 +199,13 @@ span {
     font-family: sans-serif;
 }
 
-.category .card .price {
+.category #card .price {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.category .card .price span .bx-like {
+.category #card .price span .bx-like {
     color: #ff511c;
     font-size: 20px;
     cursor: pointer;
