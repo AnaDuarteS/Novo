@@ -170,7 +170,7 @@ span {
 .category .card-list #card img {
     width: 100px;
     height: auto;
-    bottom: 180px;
+    bottom: 160px;
     left: 50px;
     object-fit: cover;
     object-position: center;
@@ -181,7 +181,7 @@ span {
 }
 
 .category .card-list #card .food-title {
-    padding: 40px 0 10px;
+    padding: 30px 0 10px;
 }
 
 .category .card-list #card .food-title h1 {
