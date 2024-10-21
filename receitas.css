@@ -1,3 +1,9 @@
+*,::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
     margin-bottom: 40px;
@@ -103,7 +109,7 @@ input {
     margin-right: 10px;
 }
 
-NAV #post{
+ #post{
     border-left:saddlebrown ;
 }
 
