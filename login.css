@@ -9,7 +9,6 @@ body {
     width: 100vw;
 }
 
-
 main {
     background-image: url("C:/Users/Pichau/Downloads/Proz-main/assets/top-view-food-ingredients-with-notebook-pumpkin.jpg"); 
     padding: 20px;
@@ -30,6 +29,7 @@ form {
     justify-content: space-between;
     
 }
+
 #login{
     box-shadow: 0 0 20px 0 black;
 }
@@ -76,19 +76,26 @@ form button {
     grid-template-columns: 2fr 2fr;
     margin: 5px;
 }
+
 .BtnCadastrese{
     text-decoration: none;
 }
+
 form button:hover {
     background-color: #B3261E;
 }
 
 section{
     margin: auto;
-   
     background-color: white !important;
 }
 
-
-
-
+.logo a {
+    display: flex;
+    text-decoration: none;
+    border: none;
+    color: #d9451d;
+    background-color: transparent;
+    font-weight: 800;
+    cursor: pointer;
+}
