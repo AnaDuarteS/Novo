@@ -23,7 +23,16 @@ const arrayReceitas = [
 const nomeReceita = document.createElement('section')
 
 // popular o elemento
-nomeReceita.innerHTML = `<section id=Receita>
+nomeReceita.innerHTML = `<section>
+            <div class="card">
+                <img src="assets/avatar.png" alt="user" style="border-radius: 50%; margin-right: 20px; display: block;">
+            </div>
+            <div>
+                <strong>Cozinheiro Eduardo</strong>
+                <blockquote>Especialista em Comida regionalista</blockquote>
+            </div>
+        </section>
+            <section id=Receita>
             <h1 id="Titulo">Tacacá</h1>
             <h3 id="Receita">Ingredientes</h3>
             <div>
@@ -60,5 +69,5 @@ nomeReceita.innerHTML = `<section id=Receita>
         </section>  `
 
 
-const main = document.querySelector('main')
+const main = document.querySelector('section')
 main.appendChild(nomeReceita)
