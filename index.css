@@ -55,6 +55,16 @@ body {
     margin-left: 10px;
 }
 
+.logo a {
+    display: flex;
+    text-decoration: none;
+    border: none;
+    color: #d9451d;
+    background-color: transparent;
+    font-weight: 800;
+    cursor: pointer;
+}
+
 .nav-item1 a {
     text-decoration: none;
     color: #000000;
