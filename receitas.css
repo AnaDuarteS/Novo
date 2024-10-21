@@ -60,8 +60,6 @@ body {
     margin-left: 10px;
 }
 
-
-
 .nav-item1 a {
     text-decoration: none;
     color: #000000;
@@ -269,4 +267,8 @@ span {
             flex-direction: column;
         }
     }
+}
+
+#Titulo {
+    font-size: 24px;
 }
