@@ -58,6 +58,59 @@ body {
     font-size: 17px
 }
 
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    margin-bottom: 100px;
+    
+}
+
+.search-bar {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Espaço para o botão no lado direito */
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.search-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #666;
+    font-size: 20px;
+}
+
+.search-button:hover {
+    color: #000; /* Muda a cor do ícone ao passar o mouse */
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+#searchResults .result-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
 input {
     padding: 10px 20px;
     cursor: pointer;
@@ -77,60 +130,20 @@ input {
     border-radius: 5px;
 }
 
-.pesquisa-recentes {
-    margin: 0;
-    padding: 0;
-}
 
-.texto-pesquisa {
+.ultimas-receitas {
+    margin-top: 180px;
     text-align: left;
-    margin-top: 80px;
-    padding: 50px;
-}
-
-.contener-pesquisa {
-    display: flex;
-    align-items: center;
-}
-.imagens-pesquisa-recente {
-    margin: 30px 50px;
-    border-radius: 15px;
-    height: 215px;
-    width: 390px;
-}
-
-.texto-tacaca {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    text-align: left;
-    color: rgb(88, 88, 88);     
-}
-
-.contener-pesquisa h3, .contener-pesquisa p {
-    display: flex;
-    flex-direction: column;
-}
-
-.texto-receitas {
-   margin: 0;
-   padding: 0;
-}
-
-.linha-receita {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-size: 2em;
+    color: #d9451d;
 }
 
 .escolha-receita {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(89, 88, 88);
-}
-
-.texto-receita-populares {
+    margin-bottom: 80px;
     text-align: left;
-    margin: 30px 50px;
+    font-family: sans-serif;
+    color:rgb(89, 88, 88);
 }
 
 .container-receitas-populares {
@@ -138,29 +151,25 @@ input {
 }
 
 .imagem-receitas-populares {
-    margin: 30px 50px;
-    border-radius: 15px;
-    height: 215px;
-    width: 390px;
+    margin: 30px 100px;
+    border-radius: 180px;
+    height: 150px;
+    width: 200px;
+    box-shadow: 0 15px 8px rgba(96, 2, 2, 0.2); /* Adiciona sombra */
 }
 
 .texto-container-receitas-populares {    
     display: flex;
     flex-direction: column;
     justify-content: center; /* Para centralizar verticalmente */
+    
 }
 
-.linha-hr {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    border: 0.05px solid rgb(180, 179, 179);
-    width: 900px;    
-}
 
 .texto-container-receitas-populares h3 {
     color: #EFB726;
     padding: 20px 0;
+    
 }   
 
 section-bottom {
