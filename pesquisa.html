@@ -8,6 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   
 </head>
 <body>
@@ -47,46 +48,50 @@
     </header>
 
     <main>
-    <div class="pesquisa-recentes">
-        <h2 class="texto-pesquisa">Pesquisa Recente</h2>
-        <div class="contener-pesquisa">
-            <a href="paginaDeReceita.html"><img src="assets/tacaca3.png" class="imagens-pesquisa-recente" alt="Imagem-Tacaca"></a>
-            <div class="texto-container">
-                <h3 class="texto-tacaca">Tacacá</h3>
-            </div>
+        
+    <div class="search-section">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Pesquisar receitas..." />
+            <button onclick="searchRecipes()" class="search-button">
+                <i class="fa fa-search"></i>
+            </button>
         </div>
+        <div id="searchResults"></div>
     </div>
 
     <div class="texto-receitas">
-        <div class="linha-receita">__________ RECEITAS __________</div>
-        <div class="escolha-receita">ESCOLHA SUA RECEITA</div>
-    </div>
-
-    <div class="texto-receita-populares">
-        <h2 class="texto-populares">RECEITAS POPULARES</h2>
+        <div class="ultimas-receitas">Últimas Receitas Adicionadas</div>
+        <div class="escolha-receita">Escolha sua receita</div>
     </div>
     
     <div class="container-receitas-populares">
-        <img src="assets/torta3.png" class="imagem-receitas-populares" alt="Imagem-Torta">
+        <a href="usuarioReceita5.html">
+        <img src="assets/quindim.jpg" class="imagem-receitas-populares" alt="Imagem-quindim"/>    
+        </a>
         <div class="texto-container-receitas-populares">
-            <h3>Torta Doce</h3>
-            <p>Uma torta doce deixa qualquer ocasião mais especial, desde<br> o café da manhã e o lanche da tarde até o aniversário e as festas de família</p>
+            <h3>Quindim de padaria</h3>
+            <p>Quindim de Padaria é um doce irresistível que, quando vemos na vitrine, logo queremos provar.
+                A boa notícia é que você pode fazer quindim<br> de padaria na sua casa, de forma fácil e com excelente resultado. Vamos conferir?</p>
         </div>
     </div>
-    <hr class="linha-hr">
+    
     <div class="container-receitas-populares">
-        <img src="assets/acaraje4.png" class="imagem-receitas-populares" alt="Imagem-acaraje">
+        <a href="usuarioReceita4.html">
+            <img src="assets/arrozCuxa.jpg" class="imagem-receitas-populares" alt="Imagem-arrozCuxa"/>
+        </a>
         <div class="texto-container-receitas-populares">
-            <h3>Mini acajare na airfyer</h3>
-            <p>Você sabia que a palavra acarajé se origina da língua africana<br> iorubá? Nessa designação, 'akará' quer dizer “bola de fogo” e 'jé' significa “comer”.</p>
+            <h3>Arroz de Cuxá Maranhense</h3>
+            <p>O arroz de cuxá é um prato muito típico do Maranhão, provavelmente o mais icônico! É preparado misturando-se o arroz com a folha da<br> vinagreira cozida, além do camarão seco. O arroz de cuxá é muito servido como acompanhamento dos pratos à base de peixe.<br> Um prato praticamente obrigatório a quem quer experimentar a culinária do estado.</p>
         </div>
     </div>
-    <hr class="linha-hr">
+   
     <div class="container-receitas-populares">
-        <img src="assets/Feijoada3.png" class="imagem-receitas-populares" alt="Imagem-feijoada">
+        <a href="usuarioReceita6.html">
+            <img src="assets/paoQueijo.jpg" class="imagem-receitas-populares" alt="Imagem-paoQueijo"/>
+        </a> 
         <div class="texto-container-receitas-populares">
-            <h3>Feijoada tradicional</h3>
-            <p>Um clássico da nossa culinária, a feijoada é um prato que possui algumas<br> variações, mas todas bem deliciosas! Esta receita de feijoada que trazemos pra você <br>é bem tradicional, contendo carnes como orelha, rabo e pé de porco.<br>Confira como fazer e capriche no seu almoço!</p>
+            <h3>Pão de Queijo Mineiro</h3>
+            <p>É um prato típico originado no estado de Minas Gerais. O gostinho diferenciado da receita original tem um responsável: o queijo meia cura.<br> Enquanto nas outras receitas de pão de queijo você pode utilizar queijos de outros tipos, mas apenas esse queijo produzido especialmente em<br> Minas vai dar o sabor original. </p>
         </div>
     </div>
 
@@ -175,7 +180,8 @@
     <footer>
         Copyright 2024 © - Site Receitas™ 
     </footer>
-    <script src="main.js"></script>
+    <script src="pesquisa.js"></script>
 </body>
 </html>
+
 
