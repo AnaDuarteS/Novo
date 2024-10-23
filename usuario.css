@@ -203,6 +203,63 @@ input {
     color: black;
 }
 
+#add-receita {
+    margin: 20px auto; /* centraliza a caixa */
+    padding: 20px;
+    background: #f5e0c0;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+}
+
+#add-receita h2 {
+    margin-bottom: 15px;
+}
+
+#add-receita div {
+    margin-bottom: 15px;
+}
+
+#add-receita label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#add-receita input, 
+#add-receita textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #f5e0c0;
+}
+#form-receita {
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna */
+    margin: 0 auto; /* Garante que o formulário em si também esteja centralizado */
+}
+#form-receita div {
+    width: 100%; /* Faz com que os campos ocupem toda a largura do formulário */
+    max-width: 500px; /* Define uma largura máxima se necessário */
+}
+
+
+#form-receita button {
+    background-color: #00a508; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    margin-top: 20px;
+    align-self: center;
+}
+
+#form-receita button:hover {
+    background-color: #d9451d; /* Cor ao passar o mouse */
+    margin-top: 20px;
+}
+
 #comentarios {
     background-color: #363131;
     display: border-box;
@@ -268,4 +325,5 @@ footer {
         margin: 12px 0px;
     }
 }
+    
     
