@@ -7,22 +7,49 @@
     <link rel="stylesheet" href="login.css"> 
 </head>
 <body>
-        <header>
-            <section class="menu">
-                <nav id="nav">
-                    <div id="input">
-                        <a href="index.html"><input class="inicio" type="submit" value="Inicio" name="inicio"></a>
-                    </div>
-            </header>
+    <header>
+        <section class="menu">
+            <nav id="nav">
+                <div class="inicio">
+                    <a href="index.html"><button class="Btnlogin">Início</button></a>
+                </div>
+                
+                <ul id="nav-links1">
+                    <li class="nav-item"><a href="receitas.html">RECEITAS</a></li>
+                    <li class="nav-item"><a href="usuario.html">PERFIL</a></li>
+                    <li class="nav-item active"><a href="login.html">LOGIN</a></li>
+                    <li class="nav-item"><a href="pesquisa.html">PESQUISA</a></li>
+                </ul>
+                
+                <div id="input">
+                    <a href="login.html"><input class="signin" type="submit" value="Login" name="signin"></a>
+                    <a href="cadastro.html"><input class="signup" type="submit" value="Cadastro" name="signup"></a>
+                </div>
+
+                <button id="mobile_btn">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </nav>  
+    
+                <div id="mobile_menu">
+                    <ul id="nav-links2">
+                        <li class="nav-item1"><a href="receitas.html">Receitas</a></li>
+                        <li class="nav-item1"><a href="usuario.html">Perfil</a></li>
+                        <li class="nav-item1"><a href="login.html">Login</a></li>
+                        <li class="nav-item1"><a href="pesquisa.html">Pesquisa</a></li>
+                    </ul>
+                </div> 
+        </section>
+    </header>
             
     <main>        
         <section id="login">
             <form id="loginForm">
                 <div id="input">
-                    <a href="login.html"><button class="Btnlogin">Login</button></a>
+                    <a href="login.html"><button class=".signin">Login</button></a>
 
                     <a href="login.html">
-                        <button class="Btnlogin">Cadastro</button>
+                        <button class="#signup">Cadastro</button>
                     </a>
                 </div>
 

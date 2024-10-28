@@ -50,10 +50,6 @@ body {
     margin-left: 20%;
 }
 
-.nav-item.active {
-    
-}
-
 .nav-item1 a {
     text-decoration: none;
     color: #000000;
@@ -113,18 +109,18 @@ body {
     background-color: #fff;
 }
 
-input {
+button {
     padding: 10px 20px;
     cursor: pointer;
     font-weight: 600;
 }
 
-.signin {
+#signin {
     background: transparent;
     border: none;
 }
 
-.signup {
+#signup {
     background-color: #ff511c;
     color: #ffffff;
     outline: none;

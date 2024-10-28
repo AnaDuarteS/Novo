@@ -1,12 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-body {
-    font-family: 'Inter';
+*,::after, ::before {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 100px;
+    background-color: #ffeae0;
+}
+
+button {
+    padding: 10px 23px;
+    background-color: #ff511c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 #nav {
@@ -18,23 +27,132 @@ body {
     background-color: #ffeae0;
 }
 
+#nav-links1 {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#nav ul li {
+    margin-right: 30px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px
+}
+
+#nav ul .active::after {
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #ff511c;
+    display: flex;
+    position: relative;
+    margin-left: 20%;
+}
+
+.nav-item1 a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px
+}
+
 input {
     padding: 10px 20px;
     cursor: pointer;
+    font-weight: 600;  
+}
+
+button  {
+    padding: 10px 20px;
+    cursor: pointer;
     font-weight: 600;
-    
 }
-.inicio {
-    margin-left: 100px;
+
+.signin {
+    background: transparent;
+    border: none;
 }
-main {
-    background-image: url("C:/Users/Pichau/Downloads/Proz-main/assets/top-view-food-ingredients-with-notebook-pumpkin.jpg"); 
-    padding: 20px;
-    flex-grow: 1;
+
+.signup {
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+span {
+    margin-left: 2%;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+footer {
+    width: 100%;
     display: flex;
-    justify-content: center;   
+    justify-content: center;
     align-items: center;
-    background-color: #ffeae0;
+    color: #1a1407;
+}
+
+@media screen and (max-width: 1170px) {
+    #nav ul,
+    #input {
+        display: none;
+    }
+
+    .content {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin-left: 650px;
+    }
+  
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav-links2 {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+        list-style: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        .card-list {
+            display: grid;
+        }
+    }
 }
 
 form {
@@ -45,10 +163,9 @@ form {
     margin: auto;
     align-items: center;
     justify-content: space-between;
-    
 }
 
-#login{
+#login {
     box-shadow: 0 0 20px 0 black;
 }
 
@@ -103,25 +220,10 @@ form button:hover {
     background-color: #B3261E;
 }
 
-section{
-    margin: auto;
+section#login {
+    background-color: #000000;
+    margin: 10%;
+    margin-left: 30%;
+    width: 40%;
     background-color: white !important;
-}
-
-.logo a {
-    display: flex;
-    text-decoration: none;
-    border: none;
-    color: #d9451d;
-    background-color: transparent;
-    font-weight: 800;
-    cursor: pointer;
-}
-
-.inicio {
-    background-color: #ff511c;
-    color: #ffffff;
-    outline: none;
-    border: none;
-    border-radius: 5px;
 }
