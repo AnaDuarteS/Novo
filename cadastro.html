@@ -7,42 +7,42 @@
     <title>Criar Conta</title>
 </head>
 <body>
-    <main>
-        <header>
-            <section class="menu">
-                <nav id="nav">
-                    <div class="logo">
-                        <a href="index.html">INÍCIO</a>
-                    </div>
-                    
-                    <ul id="nav-links1">
-                        <li class="active"><a href="receitas.html">RECEITAS</a></li>
-                        <li class="nav-item"><a href="usuario.html">PERFIL</a></li>
-                        <li class="nav-item"><a href="login.html">LOGIN</a></li>
-                        <li class="nav-item"><a href="pesquisa.html">PESQUISA</a></li>
-                    </ul>
-                    
-                    <div id="input">
-                        <a href="login.html"><input class="signin" type="submit" value="Login" name="signin"></a>
-                        <a href="cadastro.html"><input class="signup" type="submit" value="Cadastro" name="signup"></a>
-                    </div>
+    <header>
+        <section class="menu">
+            <nav id="nav">
+                <div id="inicio">
+                    <a href="index.html"><button class="inicio">Início</button></a>
+                </div>
+                
+                <ul id="nav-links1">
+                    <li class="nav-item"><a href="receitas.html">RECEITAS</a></li>
+                    <li class="nav-item active"><a href="usuario.html">PERFIL</a></li>
+                    <li class="nav-item"><a href="login.html">LOGIN</a></li>
+                    <li class="nav-item"><a href="pesquisa.html">PESQUISA</a></li>
+                </ul>
+                
+                <div id="inicio">
+                    <a href="login.html"><button id="signin">Login</button></a>
+                    <a href="cadastro.html"><button id="signup">Cadastro</button></a>
+                </div>
+
+                <button id="mobile_btn">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </nav>  
     
-                    <button id="mobile_btn">
-                        <i class='bx bx-menu'></i>
-                    </button>
-                </nav>  
-        
-                    <div id="mobile_menu">
-                        <ul id="nav-links2">
-                            <li class="nav-item1"><a href="receitas.html">Receitas</a></li>
-                            <li class="nav-item1"><a href="usuario.html">Perfil</a></li>
-                            <li class="nav-item1"><a href="login.html">Login</a></li>
-                            <li class="nav-item1"><a href="pesquisa.html">Pesquisa</a></li>
-                        </ul>
-                    </div> 
-            </section>
-        </header>
-        
+                <div id="mobile_menu">
+                    <ul id="nav-links2">
+                        <li class="nav-item1"><a href="receitas.html">Receitas</a></li>
+                        <li class="nav-item1 active"><a href="usuario.html">Perfil</a></li>
+                        <li class="nav-item1"><a href="login.html">Login</a></li>
+                        <li class="nav-item1"><a href="pesquisa.html">Pesquisa</a></li>
+                    </ul>
+                </div> 
+        </section>
+    </header>
+    
+    <main>
         <form id="Cadastro">
             <h1>Crie sua Conta</h1>
             <div>

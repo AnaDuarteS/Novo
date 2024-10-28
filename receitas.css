@@ -38,6 +38,7 @@ body {
     font-weight: 800;
     cursor: pointer;
 }
+
 #nav ul {
     display: flex;
     list-style: none;
