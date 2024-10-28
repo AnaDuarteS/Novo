@@ -9,6 +9,24 @@ body {
     width: 100vw;
 }
 
+#nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #ffeae0;
+}
+
+input {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.inicio {
+    margin-left: 100px;
+}
 main {
     background-image: url("C:/Users/Pichau/Downloads/Proz-main/assets/top-view-food-ingredients-with-notebook-pumpkin.jpg"); 
     padding: 20px;
