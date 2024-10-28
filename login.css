@@ -96,7 +96,6 @@ button  {
     border-radius: 5px;
 }
 
-
 span {
     margin-left: 2%;
 }
@@ -110,6 +109,7 @@ span {
 }
 
 footer {
+    margin-top: 166px;
     width: 100%;
     display: flex;
     justify-content: center;

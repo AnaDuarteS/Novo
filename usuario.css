@@ -104,12 +104,10 @@ button {
     cursor: pointer;
     font-weight: 600;
 }
+
 #signin {
-    background-color: #ff511c;
-    color: #ffffff;
-    outline: none;
+    background: transparent;
     border: none;
-    border-radius: 5px;
 }
 
 #signup {
