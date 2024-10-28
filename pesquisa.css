@@ -207,7 +207,7 @@ footer {
 
 @media screen and (max-width: 1170px) {
     #nav ul,
-    #input,
+    button,
     .pratoGirando {
         display: none;
     }
@@ -340,4 +340,3 @@ footer {
     border: none;
     border-radius: 5px;
 }
-

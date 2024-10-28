@@ -116,8 +116,12 @@ footer {
 
 @media screen and (max-width: 1170px) {
     #nav ul,
-    #input {
+    button {
         display: none;
+    }
+
+    section #login {
+        display: flex;
     }
 
     .content {
@@ -125,7 +129,7 @@ footer {
         justify-content: center;
     }
     
-    #mobile_btn {
+    #mobile_menu {
         display: block;
         border: none;
         background-color: transparent;
