@@ -116,7 +116,7 @@ input {
 }
 
 .icone-usuario span {
-    font-size: 30px; 
+    font-size: 50px; 
     color: rgb(7, 5, 5); 
     font-weight: bold;
     margin: 0px;
@@ -325,5 +325,17 @@ footer {
         margin: 12px 0px;
     }
 }
-    
-    
+
+.price a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.inicio {
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}

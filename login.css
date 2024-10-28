@@ -99,3 +99,11 @@ section{
     font-weight: 800;
     cursor: pointer;
 }
+
+.inicio {
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}

@@ -342,3 +342,17 @@ footer {
     font-weight: 800;
     cursor: pointer;
 }
+
+.price a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.inicio {
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}

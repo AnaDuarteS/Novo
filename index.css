@@ -93,6 +93,14 @@ input {
     border-radius: 5px;
 }
 
+.inicio {
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
 .content {
     margin: 0 100;
     display: grid;
@@ -305,4 +313,10 @@ footer {
     border-radius: 50%;
     background-color: gray;
     margin-right: 10px;
+}
+
+.price a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
 }
