@@ -104,10 +104,12 @@ button {
     cursor: pointer;
     font-weight: 600;
 }
-
 #signin {
-    background: transparent;
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
     border: none;
+    border-radius: 5px;
 }
 
 #signup {
@@ -268,11 +270,13 @@ button {
     border-radius: 10px;
     border: 1px solid #f5e0c0;
 }
+
 #form-receita {
     display: flex;
     flex-direction: column; /* Coloca os itens em coluna */
     margin: 0 auto; /* Garante que o formulário em si também esteja centralizado */
 }
+
 #form-receita div {
     width: 100%; /* Faz com que os campos ocupem toda a largura do formulário */
     max-width: 500px; /* Define uma largura máxima se necessário */
