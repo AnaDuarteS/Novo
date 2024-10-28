@@ -47,7 +47,11 @@ body {
     background-color: #ff511c;
     display: flex;
     position: relative;
-    margin-left: 10px;
+    margin-left: 20%;
+}
+
+.nav-item.active {
+    
 }
 
 .nav-item1 a {
@@ -63,14 +67,12 @@ body {
     justify-content: center;
     margin-top: 170px;
     margin-bottom: 100px;
-    
 }
 
 .search-bar {
     position: relative;
     width: 100%;
     max-width: 400px;
-    
 }
 
 #searchInput {
@@ -130,7 +132,6 @@ input {
     border-radius: 5px;
 }
 
-
 .ultimas-receitas {
     margin-top: 180px;
     text-align: left;
@@ -162,14 +163,11 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Para centralizar verticalmente */
-    
 }
-
 
 .texto-container-receitas-populares h3 {
     color: #EFB726;
     padding: 20px 0;
-    
 }   
 
 section-bottom {
@@ -184,7 +182,6 @@ section-bottom {
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 10px 1500px 10px  10px ;
-    
 }
 
 .texto-container-receitas-populares h3, 
@@ -230,6 +227,7 @@ footer {
         background-color: transparent;
         font-size: 1.5rem;
         cursor: pointer;
+        margin-left: 650px;
     }
 
     #mobile_menu.active {
@@ -333,16 +331,6 @@ footer {
     cursor: pointer;
 }
 
-.logo a {
-    display: flex;
-    text-decoration: none;
-    border: none;
-    color: #d9451d;
-    background-color: transparent;
-    font-weight: 800;
-    cursor: pointer;
-}
-
 .price a {
     text-decoration: none;
     color: black;
@@ -356,3 +344,4 @@ footer {
     border: none;
     border-radius: 5px;
 }
+
