@@ -176,6 +176,10 @@ input {
     flex-direction: row;
 }
 
+#posts a {
+    text-decoration: none;
+}
+
 .card {
     border: 1px solid #ccc;
     border-radius: 8px;
