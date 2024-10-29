@@ -24,6 +24,11 @@ Pesquisa: Nessa pagina você encontra a receita que você quer aprender a fazer!
 4. Pesquise sobre as receitas.
 5. Crie Posts sobre as receitas.
 
+## Demostração do Site
+
+
+<img width="500px" height="275px" src="https://github.com/DavidMzNeto/Java/blob/main/Peixaria/target/classes/static/20240623_202604.gif">
+
 
 #Criadores
 <p>
