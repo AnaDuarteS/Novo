@@ -1,4 +1,4 @@
-# Receitas do dia - Rede social
+# Tempero do dia - Rede social
 
 Contruir uma loja de peixes com cadastro, carrinho e validação de compra
 
