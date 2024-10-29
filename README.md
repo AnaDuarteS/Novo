@@ -17,7 +17,7 @@ desenvolvida e pensada com o objetivo de facilitar e tornar mais divertido compa
 Index: Na tela index, temos a apresentação inicial da nossa rede social, com alguns cards de receitas populares que foram publicadas por usuarios da rede.
 Receitas: Temos a receita mais popular.
 Perfil: É aqui que você vai encontrar as suas receitas e comentários de outros usuários em relação a receitas que você publicou, além de nela, você conseguir gerar novas publicações(feature ainda não implementada).
-Pesquisa: Nessa pagina você encontra a receita que você quer aprender a fazer!!
+Pesquisa: Nessa página você encontra a receita que você quer aprender a fazer!!
 
 ## Como usar
 
@@ -27,7 +27,7 @@ Pesquisa: Nessa pagina você encontra a receita que você quer aprender a fazer!
 4. Pesquise sobre as receitas.
 5. Crie Posts sobre as receitas.
 
-## Demostração do Site
+## Demonstração do Site
 
 
 <img width="500px" height="275px" src="assets/TemperoDoDia.gif">
