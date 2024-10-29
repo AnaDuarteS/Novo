@@ -27,7 +27,7 @@ Pesquisa: Nessa pagina você encontra a receita que você quer aprender a fazer!
 
 #Criadores
 
-Ana Duarte - <a href="https://github.com/AnaDuarteS"><img>
-David Mizrahy -<a href="https://github.com/DavidMzNeto"><img>
+Ana Duarte - <a href="https://github.com/AnaDuarteS"><img></a>
+David Mizrahy -<a href="https://github.com/DavidMzNeto"><img></a>
 Eduardo Carvalho - 
-Nataly Rodrigues - <a href="https://github.com/natalyrodrigues"><img>
+Nataly Rodrigues - <a href="https://github.com/natalyrodrigues"><img></a>
