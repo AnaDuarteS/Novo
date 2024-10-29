@@ -27,7 +27,7 @@ Pesquisa: Nessa pagina você encontra a receita que você quer aprender a fazer!
 ## Demostração do Site
 
 
-<img width="500px" height="275px" src="https://github.com/DavidMzNeto/Java/blob/main/Peixaria/target/classes/static/20240623_202604.gif">
+<img width="500px" height="275px" src="[https://github.com/DavidMzNeto/Java/blob/main/Peixaria/target/classes/static/20240623_202604.gif](https://github.com/AnaDuarteS/Novo/blob/main/assets/TemperoDoDia.gif)">
 
 
 #Criadores
