@@ -224,8 +224,8 @@ button {
     flex: 0;
 }
 .card img{
-    max-width: 150px;
-    max-height: 150px;
+    max-height: 250px;
+    max-width: 250px;
 }
 
 .card-link {
