@@ -34,7 +34,7 @@ Pesquisa: Nessa pagina você encontra a receita que você quer aprender a fazer!
 
 
 
-#Criadores
+# Criadores
 <p>
 Ana Duarte - <a href="https://github.com/AnaDuarteS"><img src="assets/github.png" heigth="20px" width="20px"></a>
 </p>
