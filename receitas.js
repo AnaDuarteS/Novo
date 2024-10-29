@@ -32,7 +32,8 @@ nomeReceita.innerHTML = `<section>
                 <blockquote>Especialista em Comida regionalista</blockquote>
             </div>
         </section>
-            <section id="listaReceita">
+
+        <section id="listaReceita">
             <h1 id="receita">Tacacá</h1>
             <h3 id="Receita">Ingredientes</h3>
             <div class="description">
