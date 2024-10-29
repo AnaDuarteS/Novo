@@ -223,6 +223,10 @@ button {
     background: #fff;
     flex: 0;
 }
+.card img{
+    max-width: 150px;
+    max-height: 150px;
+}
 
 .card-link {
     text-decoration: none;
