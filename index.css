@@ -60,6 +60,17 @@ button {
     font-weight: 600;
 }
 
+.botaoInicio {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
 #signin {
     background: transparent;
     border: none;
@@ -230,7 +241,7 @@ span {
     cursor: pointer;
 }
 
-#mobile_btn {
+.mobile_btn {
     display: none;
 }
 
@@ -258,13 +269,12 @@ footer {
         justify-content: center;
     }
     
-    #mobile_btn {
-        display: block;
+    .mobile_btn {
+        display: flex;
         border: none;
         background-color: transparent;
         font-size: 1.5rem;
         cursor: pointer;
-        margin-left: 650px;
     }
   
     #mobile_menu.active {
@@ -281,12 +291,24 @@ footer {
         list-style: none;
     }
 
+    .category .list-items .card-list {
+        display: flex;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5%;
+        justify-content: space-evenly;  
+    }
+
+    .category .list-items .card-list img {
+        display: none;
+    }
+}
+
     @media screen and (max-width: 600px) {
         .card-list {
             display: grid;
         }
     }
-}
+
 
 .card {
     width: 75px;

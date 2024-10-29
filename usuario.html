@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receita</title>
-    <link rel="stylesheet" href="receitas.css">
+    <link rel="stylesheet" href="usuario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/scrollreveal"></script>
     
+
+    <title>Página de Usuário</title>
 </head>
 <body>
     <header>
         <section class="menu">
             <nav id="nav">
-                <div id="inicio">
-                    <a href="index.html"><button class="inicio">Início</button></a>
-                </div>
+                <a href="index.html">
+                    <input type="button" value="Início" class="botaoInicio">
+                </a>
                 
                 <ul id="nav-links1">
-                    <li class="nav-item active"><a href="receitas.html">RECEITAS</a></li>
-                    <li class="nav-item"><a href="usuario.html">PERFIL</a></li>
+                    <li class="nav-item"><a href="receitas.html">RECEITAS</a></li>
+                    <li class="nav-item active"><a href="usuario.html">PERFIL</a></li>
                     <li class="nav-item"><a href="login.html">LOGIN</a></li>
                     <li class="nav-item"><a href="pesquisa.html">PESQUISA</a></li>
                 </ul>
@@ -47,91 +50,117 @@
         </section>
     </header>
 
+
     <main>
-    </main>
-        <section class="category">
-            <div class="list-items">
-                <h3>Receitas Populares</h3>
+        <section class="capa">
+            <div class="imagemfundo">
+                <img src="assets/bg3.jpeg" alt="imagemfundo">
+            </div>
+            <div class="icone-usuario">
+                <img src="assets/avatar.png" alt="Avatar">
+                <span>David</span>
+            </div>
+        </section>
+        <section class="barra">
+            <button class="btn" id="post">POSTS</button>
+            <div class="divider"></div>
+            <button class="btn" id="curtidas">CURTIDAS</button>
+        </section>
+       
     
-                <div class="card-list">
-                    <div id="card">
-                        <a href="receitas.html">
-                            <img src="assets/tacaca4.jpg" alt="tacaca">
-                        </a>
-                        <div class="food-title">
-                            <h1>Tacacá</h1>
-                        </div>
-    
-                        <div class="desc-food">
-                            <p>"Receita muito popular no Norte do Brasil! Feito com tucupi, folhas de jambu e goma de tapioca. Vale muito a pena provar, um clássico!"</p>
-                        </div>
-    
-                        <div class="price">
-                            <span>Postado por: <a href="receitas.html">Eduardo</a></span> <span><i class='bx bx-like'></i></span>
-                        </div>
+        <section id="posts">
+            <a href="paginaDeReceita.html">
+            <div class="card">
+                <img src="assets/acaraje.jpg" alt="Post 1">
+                <h1 class="cardText">Acarajé</h1>
+            </div>
+        </a>
+        <a href="paginaDeReceita.html">
+            <div class="card">
+                <img src="assets/sanduichee.jpg" alt="Post 2">
+                <h1 class="cardText">Sanduíche de Frango</h1>
+            </div>
+        </a>
+        <a href="paginaDeReceita.html">
+            <div class="card">
+                <img src="assets/brigadeiro.jpg" alt="Post 3">
+                <h1 class="cardText">Brigadeiro</h1>
+            </div>
+        </a>
+        <a href="paginaDeReceita.html">
+            <div class="card">
+                <img src="assets/CHEESECAKE.jpg" alt="Post 4">
+                <h1 class="cardText">Cheesecake de Morango</h1>
+            </div>
+        </a>
+        </section>
+
+        <section id="add-receita">
+            <h2>Adicionar Nova Receita</h2>
+            <form id="form-receita">
+                <div>
+                    <label for="nome">Nome da Receita:</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div>
+                    <label for="ingredientes">Ingredientes:</label>
+                    <textarea id="ingredientes" required></textarea>
+                </div>
+                <div>
+                    <label for="modo-preparo">Modo de Preparo:</label>
+                    <textarea id="modo-preparo" required></textarea>
+                </div>
+                <div>
+                    <label for="imagem"></label>
+                    <input type="file" id="imagem" accept="image/*" required>
+                </div>
+                <button type="submit">Adicionar Receita</button>
+                <p id="mensagem-imagem" style="color: red; display: none;"></p> <!-- Mensagem de aviso -->
+                <p id="mensagem" style="color: green;"></p> <!-- Mensagem de sucesso -->
+            </form>
+            
+        </section>
+
+        <section id="comentarios">
+            <h2 >TOP COMMENTS</h2>
+            <div>
+                <div class="user">
+                    <img id="avatar" src="assets/avatar.png" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                    <div>
+                        <strong>Eduardo</strong>
+                        <p>"Sempre busco as receitas do David quando tenho que preparar algo especial"</p>
                     </div>
-    
-                    <div id="card">
-                        <a href="usuarioReceita1.html">
-                            <img src="assets/panquecaDoce.jpg" alt="PanquecaDoce">
-                        </a>
-                       
-    
-                        <div class="food-title">
-                            <h1>Panqueca Doce</h1>
-                        </div>
-    
-                        <div class="desc-food">
-                            <p>"Clássico café da manhã norte americano! Comece da melhor forma possível, com uma receita prática de paqueca. Você vai adorar!"</p>
-                        </div>
-    
-                        <div class="price">
-                            <span>Postado por: <a href="usuarioReceita1.html">David</a></span> <span><i class='bx bx-like'></i></span>
-                        </div>
+                </div>
+            </div>
+            
+            <div class="user">
+                <div>
+                    <img id="avatar" src="assets/avatar.png" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                    <div>
+                        <strong>Nataly</strong>
+                        <p>"Um perfil pra quem gosta de receitas descomplicadas!"</p>
                     </div>
+                </div>
+            </div>
     
-                    <div id="card">
-                        <a href="usuarioReceita2.html">
-                            <img src="assets/acaraje.jpg" alt="Acaraje">
-                        </a>
-    
-                        <div class="food-title">
-                            <h1>Acarajé</h1>
-                        </div>
-    
-                        <div class="desc-food">
-                            <p>"Um prato típico da Bahia, feito com massa de feijão fradinho e frito no azeite do dendê! Experimente essa iguaria ancestral!"</p>
-                        </div>
-    
-                        <div class="price">
-                            <span>Postado por: <a href="usuarioReceita2.html">Nataly</a></span> <span><i class='bx bx-like'></i></span>
-                        </div>
-                    </div>
-    
-                    <div id="card">
-                        <a href="usuarioReceita3.html">
-                            <img src="assets/tortadoce.jpg" alt="Torta Docr">
-                        </a>
-    
-                        <div class="food-title">
-                            <h1>Torta de Chocolate</h1>
-                        </div>
-    
-                        <div class="desc-food">
-                            <p>"Receita presente em qualquer reunião de família! A torta unânime e que todos gostam! Essa receita vai conquistar você toda a sua família!"</p>
-                        </div>
-    
-                        <div class="price">
-                            <span>Postado por: <a href="usuarioReceita3.html">Ana</a></span> <span><i class='bx bx-like'></i></span>
-                        </div>
+            <div class="user">
+                <div>
+                    <img id="avatar" src="assets/avatar.png"User" style="border-radius: 50%; margin-right: 10px;">
+                    <div>
+                        <strong>Ana</strong>
+                        <p>"Todo final de semana eu preparo algumas dessas receitas!"</p>
                     </div>
                 </div>
             </div>
         </section>
-
+    </main>
+    
     <footer>
-        Copyright 2024 © - Tempero do Dia™ 
+        <footer>
+            Copyright 2024 © - Tempero do Dia™ 
+        </footer>
     </footer>
-    <script src="receitas.js"></script>
+    <script src="usuario.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
