@@ -10,9 +10,9 @@
     <header>
         <section class="menu">
             <nav id="nav">
-                <a href="index.html">
-                    <input type="button" value="Início" class="botaoInicio">
-                </a>
+                <div id="inicio">
+                    <a href="index.html"><button class="inicio">Início</button></a>
+                </div>
                 
                 <ul id="nav-links1">
                     <li class="nav-item"><a href="receitas.html">RECEITAS</a></li>
@@ -26,7 +26,7 @@
                     <a href="cadastro.html"><button id="signup">Cadastro</button></a>
                 </div>
 
-                <button class="mobile_btn">
+                <button id="mobile_btn">
                     <i class='bx bx-menu'></i>
                 </button>
             </nav>  
@@ -45,29 +45,26 @@
             
     <main>        
         <section id="login">
-            <form id="loginForm">
+            <form id="loginForm" onsubmit="validateForm(event)">
                 <div id="input">
-                    <a href="login.html"><button id="signIn">Login</button></a>
-
-                    <a href="login.html">
-                        <button class="#signup">Cadastro</button>
-                    </a>
-                </div>
-
-                <div>
-                    <label for="email">Seu email</label>
-                    <input type="email" id="email" />
-                    <span class="span-required" style="display:none;">O email digitado está incorreto</span>
+                    <a href="login.html"><button type="button" id="signIn">Login</button></a>
+                    <a href="cadastro.html"><button type="button" id="signup">Cadastro</button></a>
                 </div>
         
                 <div>
-                    <label for="password">Sua senha</label>
-                    <input type="password" id="password" />
-                    <span class="span-required" style="display:none;">A senha não pode estar vazia</span>
+                    <label for="email">Seu email</label>
+                    <input type="email" id="email" required/>
+                    <span id="email-error" class="error-message"></span>
                 </div>
-
+                
+                <div>
+                    <label for="password">Sua senha</label>
+                    <input type="password" id="password" required/>
+                    <span id="password-error" class="error-message"></span>
+                </div>
+                
                 <button type="submit">Entrar</button>
-                <p>Esqueceu sua senha?</p>
+                <span id="general-error" class="error-message"></span> <!-- Mensagem de erro geral -->
             </form>
         </section>
     </main>
