@@ -25,7 +25,7 @@ const nomeReceita = document.createElement('section')
 // popular o elemento
 nomeReceita.innerHTML = `<section>
             <div class="card">
-                <img src="assets/avatar.png" alt="user" style="border-radius: 50%; margin-right: 20px; display: block;">
+                <img src="assets/eduardo.jpg" alt="user" style="border-radius: 50%; margin-right: 20px; display: block;">
             </div>
             <div>
                 <strong>Cozinheiro Eduardo</strong>
