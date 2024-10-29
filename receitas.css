@@ -313,3 +313,8 @@ span {
     border: none;
     border-radius: 5px;
 }
+
+#receita {
+    margin-top: 1%;
+    font-size: 26px;
+}
