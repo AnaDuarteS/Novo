@@ -32,10 +32,10 @@ nomeReceita.innerHTML = `<section>
                 <blockquote>Especialista em Comida regionalista</blockquote>
             </div>
         </section>
-            <section id=Receita>
-            <h1 id="Titulo">Tacacá</h1>
+            <section id="listaReceita">
+            <h1 id="receita">Tacacá</h1>
             <h3 id="Receita">Ingredientes</h3>
-            <div>
+            <div class="description">
                 <ul type="none">
                     <li> - 4 xícaras (chá) de água</li>
                     <li> - 1/2 xícara (chá) de polvilho azedo (ou goma de mandioca)</li>
