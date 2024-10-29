@@ -1,5 +1,8 @@
 <img src="assets/capa.png">
 
+# LINK 
+
+<a href="https://anaduartes.github.io/Novo/"</a>
 
 # Tempero do dia - Rede social
 
