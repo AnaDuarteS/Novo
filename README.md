@@ -1,8 +1,6 @@
 <img src="assets/capa.png">
 
-# LINK 
 
-https://anaduartes.github.io/Novo/
 
 # Tempero do dia - Rede social
 
@@ -35,6 +33,9 @@ Pesquisa: Nessa página você encontra a receita que você quer aprender a fazer
 
 <img width="500px" height="275px" src="assets/TemperoDoDia.gif">
 
+# Link 
+
+https://anaduartes.github.io/Novo/
 
 
 # Criadores
