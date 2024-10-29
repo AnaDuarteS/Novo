@@ -2,7 +2,7 @@
 
 # LINK 
 
-<a href="https://anaduartes.github.io/Novo/"</a>
+https://anaduartes.github.io/Novo/"
 
 # Tempero do dia - Rede social
 
