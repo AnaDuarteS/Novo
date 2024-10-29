@@ -1,3 +1,4 @@
+<img src="assets/capa.png">
 # Tempero do dia - Rede social
 
 Olá, sejam bem vindos à rede social Tempero do dia!!
