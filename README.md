@@ -30,4 +30,4 @@ Pesquisa: Nessa pagina você encontra a receita que você quer aprender a fazer!
 Ana Duarte - <a href="https://github.com/AnaDuarteS"><img>
 David Mizrahy -<a href="https://github.com/DavidMzNeto"><img>
 Eduardo Carvalho - 
-Nataly Rodrigues - 
+Nataly Rodrigues - <a href="https://github.com/natalyrodrigues"><img>
