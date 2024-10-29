@@ -1,7 +1,7 @@
 # Tempero do dia - Rede social
 
 Olá, sejam bem vindos à rede social Tempero do dia!!
-Desenvolvemos essa rede social com o objetivo de facilitar e tornar mais divertido compartilhar as receitas com outras pessoas.
+desenvolvida e pensada com o objetivo de facilitar e tornar mais divertido compartilhar as receitas com outras pessoas!!
 
 ## Tecnologias usadas
 
