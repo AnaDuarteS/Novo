@@ -36,5 +36,5 @@ David Mizrahy -<a href="https://github.com/DavidMzNeto"><img src="assets/github.
 Eduardo Carvalho - <a href="https://github.com/DavidMzNeto"><img src="assets/github.png" heigth="20px" width="20px"></a>
 </p>
 <p>
-Nataly Rodrigues - <a href="https://github.com/natalyrodrigues" src="assets/github.png" heigth="20px" width="20px"><img></a>
+Nataly Rodrigues - <a href="https://github.com/natalyrodrigues"><img src="assets/github.png" heigth="20px" width="20px"></a>
 </p>
