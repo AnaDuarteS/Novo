@@ -32,7 +32,7 @@ Pesquisa: Nessa pagina você encontra a receita que você quer aprender a fazer!
 
 <img width="500px" height="275px" src="assets/TemperoDoDia.gif">
 
-
+//
 #Criadores
 <p>
 Ana Duarte - <a href="https://github.com/AnaDuarteS"><img src="assets/github.png" heigth="20px" width="20px"></a>
